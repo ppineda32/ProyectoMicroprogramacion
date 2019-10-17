@@ -12,7 +12,7 @@ snake_x  db 0FFh dup (0AAh) ; array de coordenadas x
 
 menu     DB  10,13,7,'--------------------------- BIENVENIDO AL JUEGO SNAKE --------------------------',13,10
 		 DB  10,13,7,'Instrucciones:',13,10
-		 DB  10,13,7,'Antes de Iniciar el juego debera ingresar el ancho y alto que tendra la pantalla del Juego',13,10
+		 DB  10,13,7,'Antes de Iniciar el juego debera ingresar el ancho y alto (numeros de un digito) que tendra la pantalla del Juego',13,10
 		 DB  10,13,7,'Para moverse en el juego debera presionar las teclas de arriba, abajo, izquierda y derecha',13,10
 		 DB  10,13,7,'El objetivo es tomar la comida y tratar de no topar en ningun lugar'
 		 DB  10,13,7,'Si la serpiente topa un borde o su propio cuerpo, el Juego terminara'
